@@ -1,0 +1,30 @@
+
+.aboutBox {
+    display: flex;
+    width: 900px;
+    height: 700px;
+    
+    background-color: aliceblue;
+    border: none;
+    box-shadow: aliceblue;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    flex-direction: column;
+    align-items: center;
+    transform: translate(-50%, -50%);
+  }
+  
+  .aboutBox h1{
+    color: #7D3C98;
+  }
+  
+  .aboutBox p {
+    padding-left: 12px;
+  }
+  
+  .faq{
+    list-style: none;
+    padding-left: 1px;
+  }

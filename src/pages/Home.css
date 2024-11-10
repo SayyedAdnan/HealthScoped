@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+
+body {
+  font-family: "Poppins";
+  background-color: #121212;
+}
+.homeContainer {
+  max-width: 95%;
+  display: flex;
+  margin-left: 30px;
+  margin-top: 30px;
+  font-size: xx-large;
+  
+}
+
+
+button {
+  border: none;
+  background-color: none;
+  background-color: #7D3C98;
+  text-align: center;
+  outline: none;
+  
+}
+.miniButtons{
+  display: flex;
+  height: 130px;
+
+}
+.what{
+  width: 800px;
+  color: aliceblue;
+  text-align: center;
+  font-size: 30px;
+}
+.purpButton {
+  padding: 18px 25px;
+  border-radius: 6px;
+  transition: 0.3s all ease;
+  background-color: #121212;
+  border: none;
+  margin: 30px;
+  transition: 0.5s;
+  text-align: center;
+  font-size: xx-large;
+  outline: none;
+  background: #7D3C98;
+  box-shadow: 0 0 20px 10px rgb(124, 60, 153,0.63);
+}
+
+.purpButton:hover {
+  background: #7D3C98;
+  box-shadow: 0 0 20px 10px rgb(124, 60, 153,0.63);
+  transform: scale(1.2);
+}
+
+.typewriter{
+  color: #8f61a3;
+}
+
+.heading h1 {
+  font-size: 60px;
+  color: #7D3C98;
+}
+.nameH1 {
+  color: #7D3C98;
+}
+.homeh3{
+    color:aliceblue;
+}
+
+.homeP {
+  color: #f0f8ff;
+}
+
+.homeLogo{
+    margin-top: 110px;
+    margin-left: -200px;
+    width: 700px;
+}
+
+.grid-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.grid-container {
+  display: flex;
+  gap: 200px; 
+  padding: 20px;
+}
+
+
+.panel {
+  background-color: #7D3C98; 
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 170px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 20px 10px rgb(125, 60, 152,0.3);
+  transition: 0.5s;
+}
+.panel img {
+  width: 100%;
+  border-radius: 10px;
+  padding: auto;
+  box-shadow: #121212;
+  margin-bottom: 10px;
+}
+
+.panel:hover {
+  background: #7D3C98;
+  box-shadow: 0 0 20px 10px rgb(125, 60, 152,0.6);
+  transform: translateY(-10px);
+  transform: scale(1.2);
+  padding: auto;
+}
+
+
+
