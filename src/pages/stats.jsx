@@ -22,6 +22,7 @@ function App() {
 
     return (
         <div>
+            <title>HealthScoped🔎</title>
             <Container maxWidth="sm" sx={{ mt: 1, mb: 1 }}>
                 <Typography
                     fontStyle={"normal"}

@@ -68,7 +68,7 @@ const Search = () => {
   return (
     <>
       <h1 className="searchTitle">Search🔎</h1>
-
+      <title>HealthScoped🔎</title>
       <div className="searchBox">
         <label className="searchLabel">Brand Name: </label>
         <input

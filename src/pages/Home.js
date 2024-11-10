@@ -11,7 +11,7 @@ const Home = () => {
 
   return (
     <>
-
+      <title>HealthScoped🔎</title>
       <div className='homeContainer'>
         <div className='content'>
           <h3 className='homeh3'>WELCOME TO</h3>

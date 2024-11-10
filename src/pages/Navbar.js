@@ -5,6 +5,7 @@ import "./Navbar.css"
 const Navbar = () => {
     return (
         <>
+        <title>HealthScoped🔎</title>
             <header className='header'>
                 <ul className="navv">
                     <li>
