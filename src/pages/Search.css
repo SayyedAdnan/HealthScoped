@@ -1,0 +1,83 @@
+
+  
+  .searchBox {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(1, 0, 0, 0.1);
+  }
+  
+  .searchLabel {
+    font-size: x-large;
+    margin-right: 10px;
+    color: #7D3C98;
+  }
+  
+  .search-bar {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #7D3C98;
+    border-radius: 4px;
+    outline: none;
+    width: 200px;
+    color: #7D3C98;
+    font-size: large;
+   
+  }
+  
+  .searchSubmit {
+    padding: 8px 12px;
+    font-size: 16px;
+    color: aliceblue;
+    background-color: #7D3C98;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+  }
+
+  .goBackButton {
+    padding: 8px 12px;
+    font-size: 50px;
+    color: aliceblue;
+    background-color: #7D3C98;
+    border: none;
+    border-radius: 4px;
+    
+  }
+  .searchTitle{
+    font-size: 70px;
+    color: aliceblue;
+    padding-left: 50px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));  
+    gap: 15px; 
+    justify-content: center;  
+    margin-top: 20px;
+    margin-left: 60px;
+    
+  }
+  
+  .panel {
+    background-color: #7D3C98;
+    font-size: x-large;
+    width: 300px;
+    color: whitesmoke;
+    transition: transform 0.1s;
+  }
+  
+
+  .panel:hover {
+    transform: scale(1.05);
+  }
+
+ 
+ 
