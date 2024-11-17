@@ -43,8 +43,16 @@ const Search = () => {
   empty = null;
   const [detail, setdetail] = useState(empty);
   let check = true;
+  const [filterField, setFilterField] = useState(''); 
+  const [filterValue, setFilterValue] = useState('');
+
   const getAPI = async () => {
     let currAPI = document.getElementById("apiChoice").value;
+
+    let filters = [];
+    if (Brand) filters.push(`product_description:${Brand}`);
+    if (filterField && filterValue) filters.push(`${filterField}:${filterValue}`);
+    const query = filters.length > 0 ? `search=${filters.join('+')}` : '';
     
     let response = await fetch(`https://api.fda.gov/${currAPI}/event.json?search=${Brand}&limit=15`);
     if (!response.ok) {
@@ -84,6 +92,49 @@ const Search = () => {
           <option value="Drug" disabled> Drug</option>
           <option value="Device" disabled>Device</option>
         </select>
+
+        <label className="searchLabel">Filter Field:</label>
+        <select
+          className="searchDropdown"
+          value={filterField}
+          onChange={(e) => setFilterField(e.target.value)}
+        >
+          <option value="">Select a Field</option>
+          <option value="address_1">Address 1</option>
+          <option value="address_2">Address 2</option>
+          <option value="center_classification_date">Center Classification Date</option>
+          <option value="city">City</option>
+          <option value="classification">Classification</option>
+          <option value="code_info">Code Info</option>
+          <option value="country">Country</option>
+          <option value="distribution_pattern">Distribution Pattern</option>
+          <option value="event_id">Event ID</option>
+          <option value="initial_firm_notification">Initial Firm Notification</option>
+          <option value="more_code_info">More Code Info</option>
+          <option value="openfda">OpenFDA</option>
+          <option value="product_code">Product Code</option>
+          <option value="product_description">Product Description</option>
+          <option value="product_quantity">Product Quantity</option>
+          <option value="product_type">Product Type</option>
+          <option value="reason_for_recall">Reason for Recall</option>
+          <option value="recall_initiation_date">Recall Initiation Date</option>
+          <option value="recall_number">Recall Number</option>
+          <option value="recalling_firm">Recalling Firm</option>
+          <option value="report_date">Report Date</option>
+          <option value="state">State</option>
+          <option value="status">Status</option>
+          <option value="termination_date">Termination Date</option>
+          <option value="voluntary_mandated">Voluntary/Mandated</option>
+          <option value="meta">Meta</option>
+        </select>
+
+        <label className="searchLabel">Filter Value:</label>
+        <input
+          type="text"
+          className="filterValueInput"
+          id="filterValue"
+          placeholder="Enter Filter Value"
+        />
 
       </div>
       {check ? (
