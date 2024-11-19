@@ -34,14 +34,14 @@
     height: auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    border-radius: 10px;
+    border-radius: 40px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
   .purplegear{
     width: 150px;
     height: auto;
-    margin-top: 20px;
+    margin-top: 7px;
     margin-bottom: 20px;
     border-radius: 100px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
