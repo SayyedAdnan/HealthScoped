@@ -2,7 +2,7 @@
 .aboutBox {
     display: flex;
     width: 900px;
-    height: 700px;
+    height: 900px;
     
     background-color: aliceblue;
     border: none;
@@ -27,4 +27,22 @@
   .faq{
     list-style: none;
     padding-left: 1px;
+  }
+
+  .purpleheart{
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .purplegear{
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
