@@ -19,10 +19,11 @@ const About = () => {
         <h1>How to use HealthScoped</h1>
         <ul className="faq">
           <li style={{ listStyleType: 'square' }}>Navigate to the Search Page</li>
-          <li style={{ listStyleType: 'square' }}>Select the API type you want to use</li>
-          <li style={{ listStyleType: 'square' }}>Click the ⚙️ to customize the filters</li>
+          <li style={{ listStyleType: 'square' }}>Enter the food brand you want to search in the search box</li>
+          <li style={{ listStyleType: 'square' }}>Follow for more updates!!</li>
         </ul>
-        
+        <h3>Visit our github for more developer options</h3>
+        <a href="https://github.com/SayyedAdnan/HealthScoped">Github 🧑‍💻</a>
         <img 
           src="https://images.all-free-download.com/images/graphicwebp/purple_gear_icon_vector_280676.webp"
           alt="How To" 
