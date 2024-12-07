@@ -13,6 +13,7 @@ import { createClient } from "@supabase/supabase-js";
 
 
 async function incrementBrandCounter(brandName) {
+  console.log(proces.env.TEST_KEY);
   const supabase = createClient("https://qyblpzbplibhzemkkcoe.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InF5YmxwemJwbGliaHplbWtrY29lIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mjg4NzgyMDAsImV4cCI6MjA0NDQ1NDIwMH0.CTzFjfN-tavajzhPUTd-0LQjCEJJsLBgADYEn2SGFks");
   const { data: existingBrand, error: fetchError } = await supabase
     .from('brandcounter')
