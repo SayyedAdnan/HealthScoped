@@ -1,8 +1,9 @@
-# HealthScoped🔎
+# [HealthScoped](https://healthscoped.vercel.app/)🔎
 
 We hope to create a easy to use search engine for consumers to learn more about the health effects that popular products can cause. From drugs to foods our platform uses trusted data from the FDA to provide you with the information you need to make descisions.
 
-
+Website: https://healthscoped.vercel.app/
+![Screenshot](screenshot.png)
 ### Targeted Browsers 🌐
 - Google Chrome (Desktop) 
 
