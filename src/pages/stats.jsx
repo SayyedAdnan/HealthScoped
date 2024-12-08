@@ -4,7 +4,7 @@ import { Container, List, ListItem, Typography, Paper } from '@mui/material';
 import { motion } from 'framer-motion';
 
 
-const supabase = createClient("https://qyblpzbplibhzemkkcoe.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InF5YmxwemJwbGliaHplbWtrY29lIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mjg4NzgyMDAsImV4cCI6MjA0NDQ1NDIwMH0.CTzFjfN-tavajzhPUTd-0LQjCEJJsLBgADYEn2SGFks");
+const supabase = createClient(process.env.REACT_APP_SUPA_URL, process.env.REACT_APP_SUPA_TOKEN);
 
 function App() {
     const [data, setdata] = useState([]);
