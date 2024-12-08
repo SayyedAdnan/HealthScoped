@@ -94,7 +94,7 @@ const Search = () => {
           <option value="Device" disabled>Device</option>
         </select>
 
-        <label className="searchLabel">Filter Field:</label>
+        {/* <label className="searchLabel">Filter Field:</label>
         <select
           className="searchDropdown"
           value={filterField}
@@ -135,7 +135,7 @@ const Search = () => {
           className="filterValueInput"
           id="filterValue"
           placeholder="Enter Filter Value"
-        />
+        /> */}
 
       </div>
       {check ? (

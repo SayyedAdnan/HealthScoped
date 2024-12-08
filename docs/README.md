@@ -15,8 +15,8 @@ Website: https://healthscoped.vercel.app/
     - Clone this repo to your workspace `git clone https://github.com/SayyedAdnan/HealthScoped.git`
 3. **Install dependencies**
     - Run `npm install` to install all needed dependencies for the React website
-4. **Change Supabase key**
-    - Replace the Supabase URL and key with your own.
+4. **Change Environment Variables**
+    - Replace the Supabase URL and token with your own.
 6. **Host the website**
     - Using `npm start` will allow you to view the website on a local server. (http://localhost:3000)
 ### API Endpoints 🧑‍💻
