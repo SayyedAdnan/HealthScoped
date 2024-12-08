@@ -12,6 +12,7 @@ const Home = () => {
   return (
     <>
       <title>HealthScoped🔎</title>
+      {process.env.REACT_APP_HOSTING}
       <div className='homeContainer'>
         <div className='content'>
           <h3 className='homeh3'>WELCOME TO</h3>
